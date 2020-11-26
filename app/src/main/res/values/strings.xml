@@ -1,4 +1,16 @@
 <resources>
-    <string name="app_name">Android Academy App</string>
-    <string name="hello_text">Hello World!</string>
+    <string name="app_name">AndroidAcademyApp</string>
+    <string name="hello_android_academy" translatable="false">Hello Android Academy!</string>
+    <string name="avengers_end_game" translatable="false">Avengers: End Game</string>
+    <string name="_13" translatable="false">13+</string>
+    <string name="action_adventure_fantasy" translatable="false">Action, Adventure, Fantasy</string>
+    <string name="_125_reviews" translatable="false">125 REVIEWS</string>
+    <string name="storyline" translatable="false">Storyline</string>
+    <string name="description" translatable="false">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos actions and restore balance to the universe.</string>
+    <string name="cast" translatable="false">Cast</string>
+    <string name="robert_downey_jr" translatable="false">Robert Downey Jr.</string>
+    <string name="chris_evans" translatable="false">Chris Evans</string>
+    <string name="mark_ruffalo" translatable="false">Mark Ruffalo</string>
+    <string name="chris_hemsworth" translatable="false">Chris Hemsworth</string>
+    <string name="todo" translatable="false">TODO</string>
 </resources>

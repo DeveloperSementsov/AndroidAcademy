@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    tools:context=".MainActivity">
+    android:background="@drawable/bg">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -139,8 +137,8 @@
 
         <ImageView
             android:id="@+id/cast_2"
-            android:layout_width="@dimen/cast_dimension"
-            android:layout_height="@dimen/cast_dimension"
+            android:layout_width="@dimen/cast_dimension_land"
+            android:layout_height="@dimen/cast_dimension_land"
             android:layout_marginStart="@dimen/margin_8"
             android:layout_marginTop="@dimen/margin_8"
             android:contentDescription="@string/todo"
@@ -152,8 +150,8 @@
 
         <ImageView
             android:id="@+id/cast_1"
-            android:layout_width="@dimen/cast_dimension"
-            android:layout_height="@dimen/cast_dimension"
+            android:layout_width="@dimen/cast_dimension_land"
+            android:layout_height="@dimen/cast_dimension_land"
             android:layout_marginStart="@dimen/margin_16"
             android:layout_marginTop="@dimen/margin_8"
             android:contentDescription="@string/todo"
@@ -166,8 +164,8 @@
 
         <ImageView
             android:id="@+id/cast_3"
-            android:layout_width="@dimen/cast_dimension"
-            android:layout_height="@dimen/cast_dimension"
+            android:layout_width="@dimen/cast_dimension_land"
+            android:layout_height="@dimen/cast_dimension_land"
             android:layout_marginStart="@dimen/margin_8"
             android:layout_marginTop="@dimen/margin_8"
             android:contentDescription="@string/todo"
@@ -179,8 +177,8 @@
 
         <ImageView
             android:id="@+id/cast_4"
-            android:layout_width="@dimen/cast_dimension"
-            android:layout_height="@dimen/cast_dimension"
+            android:layout_width="@dimen/cast_dimension_land"
+            android:layout_height="@dimen/cast_dimension_land"
             android:layout_marginStart="@dimen/margin_8"
             android:layout_marginTop="@dimen/margin_8"
             android:layout_marginEnd="@dimen/margin_16"
@@ -236,5 +234,6 @@
             app:layout_constraintTop_toBottomOf="@+id/cast_4" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </ScrollView>
